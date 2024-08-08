@@ -104,11 +104,9 @@ public class Main {
                     String[] details = new String[2];
                     if (inp == 1 || inp == 3) {
                         System.out.println("Enter new title :");
-                        details[0] = sc.nextLine();
                     }
                     if (inp == 2 || inp == 3) {
                         System.out.println("Enter new content :");
-                        details[1] = sc.nextLine();
                     }
                     user.edit(inp,id2,details);
 
