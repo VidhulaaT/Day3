@@ -95,7 +95,6 @@ public class Main {
                 case 2:
                     System.out.println("Enter id :");
                     int id2 = sc.nextInt();
-                    sc.nextLine();
                     System.out.println("Edit title - 1");
                     System.out.println("Edit content - 2");
                     System.out.println("Edit both - 3");
@@ -105,11 +104,11 @@ public class Main {
                     String[] details = new String[2];
                     if (inp == 1 || inp == 3) {
                         System.out.println("Enter new title :");
-                        details[0] = sc.next();
+                        details[0] = sc.nextLine();
                     }
                     if (inp == 2 || inp == 3) {
                         System.out.println("Enter new content :");
-                        details[1] = sc.next();
+                        details[1] = sc.nextLine();
                     }
                     user.edit(inp,id2,details);
 

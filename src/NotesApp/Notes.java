@@ -53,6 +53,7 @@ public class Notes {
         for(int i=0;i<size;i++){
             if(noteList.get(i).getId() == id){
                 noteList.remove(i);
+                return;
             }
         }
     }

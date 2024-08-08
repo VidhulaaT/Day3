@@ -5,7 +5,6 @@ public class Note {
     private int id;
     private String heading;
     private String content;
-
     //date and time
 
     public String getContent() {
