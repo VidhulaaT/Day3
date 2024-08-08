@@ -145,7 +145,7 @@ public class Main {
         if (u != null) {
             notesMenu(u);
         } else {
-            System.out.println("Program terminated");
+            System.out.println("Program terminated successfully");
 
         }
     }
